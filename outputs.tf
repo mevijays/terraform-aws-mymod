@@ -1,5 +1,5 @@
 output "ec2_ip" {
-  value = aws_instance.main.public_ip
+  value       = aws_instance.main.public_ip
   description = "Public ip of my ec2 instance"
 }
 output "vpc_id" {
